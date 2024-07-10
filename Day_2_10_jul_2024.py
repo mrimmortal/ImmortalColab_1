@@ -10,16 +10,25 @@
 
 # ------------------------Play with strings-------------------
 
-x = "immortals world"
-y = "always"
+# x = "immortals world"
+# y = "always"
 
-print(x)
-print(x[2])
-print(x[-2])
-print(x[0:3])
-print(x.split(" "))
-print(x.startswith("i"))
-print(x.startswith("x"))
-print(x.endswith("s"))
-print(x.replace("i","ee"))
-print(x.upper())
+# print(x)
+# print(x[2])
+# print(x[-2])
+# print(x[0:3])
+# print(x.split(" "))
+# print(x.startswith("i"))
+# print(x.startswith("x"))
+# print(x.endswith("s"))
+# print(x.replace("i","ee"))
+# print(x.upper())
+
+# -------------------can you check now3a----area of circle-------------------
+def area_of_circle(ip):
+    area =  3.14 * ip * ip
+    return area
+
+ip = float(input("Enter the radius :"))
+print(area_of_circle(ip))
+
